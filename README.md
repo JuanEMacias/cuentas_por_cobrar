@@ -2,9 +2,10 @@
 
 ## Descripción
 ***
-En este proyecto se trabaja en el servicio de telefonía virtual CallMeMaybe, el cual está desarrollando una nueva función que brindará a los supervisores y las supervisoras información sobre los operadores menos eficaces. 
-Los clientes son organizaciones que necesitan distribuir gran cantidad de llamadas entrantes entre varios operadores, o realizar llamadas salientes a través de sus operadores. Los operadores también pueden realizar llamadas internas para comunicarse entre ellos. Estas llamadas se realizan a través de la red de CallMeMaybe.
-Por regla de negocio entenderemos que un operador es ineficaz si tiene una gran cantidad de llamadas entrantes perdidas (internas y externas) y un tiempo de espera prolongado para las llamadas entrantes. 
+En este proyecto se trabaja con un conjunto de datos de cuentas por cobrar, siendo que el objetivo es centrarse en las cuentas o facturas en disputa. Estas facturas son aquellas que los clientes por alguna razón se niegan a pagar ya que se pide que se les libre de la responsabilidad del pago de las mismas. 
+En este caso, vamos a examinar que factores son los que influyen más para que los clientes tomen dicha postura y poder identificar que caracteristicas tienen dichos clientes para que el área de cobranza obtenga un mejor panorama para tomar mediadas preventivas ante las facturas en disputa. 
+
+
 Las tareas llevadas a cabo son:
 *	Llevar a cabo el análisis exploratorio de datos
 *	Identificar cuentas en disputa
