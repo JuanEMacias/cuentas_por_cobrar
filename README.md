@@ -35,14 +35,14 @@ El dataset comprimido `WA_Fn-UseC_-Accounts-Receivable` contiene las siguientes 
 
 ### 2. Análisis exploratorio
 Primero realizamos las gráficas generales para observar la distrubución de los datos;
-como por ejemplo la cantidad de facturas a través del tiempo, la duración de las mismas y la dsitribución de llamadas perdidas. 
+como por ejemplo la cantidad de facturas a través del tiempo. 
 
 Después agrupamos los datos por país para saber que paises tienen más días de atraso o facturas en disputa y saber si se sigue algún patrón. 
 
 El siguiente insight es para conocer si los clienteslas fechas tenían alguan influencia dentro de la atención, ya que como observamos en el proyecto, hay diferentes fechas en las que se generan facturas en disputa por lo que se consideró interesante explorar la realción entre la fechas y facturas en disputa.
 
 ### Pronóstico y predicciones 
-Utilizamos la función de pandas `pd.get_dummies(df)`  para lograr convertir las variables de dataframe a tipo numérico y realizar la garupación por clusteres.
+Utilizamos la función de pandas `pd.get_dummies(df)`  para lograr convertir las variables de dataframe a tipo numérico y realizar la agrupación por clusteres.
 
 Posterioemte mediante un dendrograma y una grafica de método del codo realizamos uan agrupación por clústeres con variables del dataset y conocer las características de facturas en disputa, dichas agrupaciones se muestran mediante graficas de dispersión.
 
