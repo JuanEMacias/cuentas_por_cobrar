@@ -1,1 +1,1 @@
-# cuentas_por_cobrar
+# Análisis cuentas por cobrar
